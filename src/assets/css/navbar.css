@@ -1,0 +1,36 @@
+
+.box{
+    display: flex;
+    margin: 50px 0 0 75px;
+    position: relative;
+}
+.fnbox{
+    display: flex;
+    width: 200px;
+    height: 55px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+#fid:hover{
+    width: 75px;
+    height: 75px;    
+}
+
+
+@media (max-width: 400px) {
+    .box{
+        margin:5px;
+    }
+    .fnbox{
+        display: flex;
+        width: 100px;
+        height: 30px;
+        justify-content: space-between;
+    }
+    #fid:hover{
+        width: 45px;
+        height: 45px;    
+    }
+}
